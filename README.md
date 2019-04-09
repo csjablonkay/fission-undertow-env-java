@@ -5,11 +5,11 @@ Java undertow environment implementation for fission.
 Sample
 ------
 
-###Dependencies:
+### Dependencies:
 - [Java core module](https://github.com/csjablonkay/fission-undertow-java-core). This has the Function interface.
 - [Java sample module](https://github.com/csjablonkay/fission-undertow-java-sample). This has the helloworld function implementation.
 
-###Steps:
+### Steps:
 1., Create environment:
 ```bash
 $ fission env create --name jvm --image csjablonkay/fission-undertow-jvm-env --version 2 --keeparchive --mincpu 100 --maxcpu 500 --minmemory 256 --maxmemory 1024
